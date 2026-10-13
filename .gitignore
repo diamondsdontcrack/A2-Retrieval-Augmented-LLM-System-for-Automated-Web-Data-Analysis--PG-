@@ -1,0 +1,41 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.key
+
+# VS Code local settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Assignment 2 full dataset (not for submission)
+ir-ass2-startcode-PG/data/full/*
+!ir-ass2-startcode-PG/data/full/README.md
+
+# Generated indexes and temporary API cache
+ir-ass2-startcode-PG/cache/*
+!ir-ass2-startcode-PG/cache/.gitkeep
+
+# Generated run results
+ir-ass2-startcode-PG/runs/*
+!ir-ass2-startcode-PG/runs/.gitkeep
+
+# Temporary files
+*.tmp
+*.log
